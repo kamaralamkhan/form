@@ -1,0 +1,86 @@
+  /* 
+    .toggle-and-preview-container {
+        max-width: 500px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        
+    } */  
+
+    .toggle-buttons {
+        display: flex;
+          /* justify-content: space-between; */  
+        margin-bottom: 10px;
+        justify-content: space-evenly;
+        /* text-align: center; 
+          margin-bottom: 10px; */  
+    }
+
+
+    .toggle-buttons .btn {
+        flex: 1;
+        margin-right: 5px;
+    }
+
+
+    .toggle-buttons .btn.active {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    
+    .toggle-buttons .btn.active {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+      /* Add this to style the inactive button */  
+    .toggle-buttons .btn:not(.active) {
+        background-color: #fff;
+        color: #007bff;
+        border: 1px solid #007bff;
+    }
+
+    
+
+    .image-preview {
+        background-color: #f8f9fa;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 10px;
+        max-width: 500px;
+        margin: 0 auto;
+        /* background-color: #f8f9fa;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 10px;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center; */
+
+    }
+
+    #image-preview {
+        max-width: 100%; /* Ensure the image fits within the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    
+    .toggle-and-preview-container {
+        max-width: 500px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        
+    }
+    @media screen and (max-width: 768px) {
+        .content-container {
+            flex-direction: row;
+        }
+    }
+
+.main{
+    align-items: center; justify-content: start;
+}
